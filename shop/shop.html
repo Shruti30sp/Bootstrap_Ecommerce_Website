@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Layout</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      /* Custom CSS for card styling */
+      .card {
+        margin: 10px;
+      }
+      .card-img-top {
+        height: 300px; /* Set a fixed height */
+        object-fit: cover; /* Ensures the image scales properly */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation Bar-------------------------------------------- -->
+    <div
+      class="d-flex justify-content-center opacity-100 position-fixed fixed-top"
+      style="background-color: rgb(192, 191, 191)"
+    >
+    <div class="logo" style="margin-left: -60px; margin-top: 40px;">
+      <a href="/index.html"><img src="/images/nobg.png" alt=""></a>
+    </div> 
+      <ul>
+        <li class="list-inline-item">
+          <a
+            href=""
+            class="text-decoration-none text-white m-4 fs-5 fw-semibold"
+            >HOME</a
+          >
+        </li>
+
+        <li class="nav-item dropdown list-inline-item">
+          <a
+            class="nav-link text-white m-4 fs-5 fw-semibold"
+            href="/shop/shop.html"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            SHOP
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a
+            href="/ContactUS/index.html"
+            class="text-decoration-none text-white m-4 fs-5 fw-semibold"
+            >CONTACT US</a
+          >
+        </li>
+        <li class="list-inline-item">
+          <a
+            href="/about/about.html"
+            class="text-decoration-none text-white m-4 fs-5 fw-semibold"
+            >ABOUT US</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="container mt-5">
+      <!-- block 1 -->
+
+      <div>
+        <div class="heading text-decoration-underline pb-4 mb-5">
+          <h2 class="" style="margin-top: 100px">Face Serum</h2>
+        </div>
+
+        <!-- Parent div with flexbox -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <!-- Card 1 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/serum01.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Glow Serum : Propolis + Niacinamide</h5>
+                <p class="card-text">
+                  Glow Serum is made for those struggling with enlarged pores,
+                  dry skin and skin inflammation.
+                  <span class="fw-bold">MRP: 550</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/serum02.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Collagen Boost Serum</h5>
+                <p class="card-text">
+                  This intensely hydrating serum with 96% snail mucin that
+                  filtrate deeply moisturizes the skin
+                  <span class="fw-bold">MRP: 700</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/serum03.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">10% Vitamin C Serum</h5>
+                <p class="card-text">
+                  Vitamin C & Polyhydroxy Acid that brightens and tones sun
+                  damaged and dull skin with dark spots.
+                  <span class="fw-bold">MRP: 500</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/serum05.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Snail Mucin Power Essence</h5>
+                <p class="card-text">
+                  A essence enriched with 96% snail secretion filtrate, which
+                  nourishes, repairs, skin for glass skin.
+                  <span class="fw-bold">MRP: 800</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/serum06.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">2% Kojic Acid Face Serum</h5>
+                <p class="card-text">
+                  It minimizes the recurrence of discoloration and stubborn
+                  brown patches and treats the tanning.
+                  <span class="fw-bold">MRP: 500</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/serum04.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tea Tree Relief Face Serums</h5>
+                <p class="card-text">
+                  It effectively soothes, reduces redness, repairs skin, and at
+                  the same time maintains moisture of skin.
+                  <span class="fw-bold">MRP: 460</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- block 2---------------------------------------------------------- -->
+
+      <div>
+        <div class="heading text-decoration-underline pb-4">
+          <h2>Face Mask</h2>
+        </div>
+        <!-- Parent div with flexbox -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <!-- Card 1 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/mask01.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Illuminating Glow Face Mask</h5>
+                <p class="card-text">
+                  A moisture-replenishing facial mask infused with varieties of
+                  turmeric that brighten and hydrates.
+                  <span class="fw-bold">MRP: 400</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/mask03.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">De-Tan Skin Radiance Mask</h5>
+                <p class="card-text">
+                  With Lactic Acid, Brazilian Purple Clay & Kaolin Clay that
+                  de-tan the skin and gives glowy skin
+                  <span class="fw-bold">MRP: 800</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/mask04.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Red Bean Refreshing Pore Mask</h5>
+                <p class="card-text">
+                  Contains kaolin clay, red bean extract, pear, and strawberry
+                  fruit extracts for smooth-glowing skin
+                  <span class="fw-bold">MRP: 550</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/mask05.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Green Tea Clear Face Mask</h5>
+                <p class="card-text">
+                  Concentrated source of polyphenols and other antioxidants, to
+                  stop the acne formation cycle
+                  <span class="fw-bold">MRP: 600</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/mask02.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cica Sleeping Mask</h5>
+                <p class="card-text">
+                  Specially formulated for sensitive skin it smoothe stressed
+                  skin, gives glow and radient glowing skin
+                  <span class="fw-bold">MRP: 450</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/mask6.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vitamin E Mask</h5>
+                <p class="card-text">
+                  Vitamin E Mask is a multi-functional product that can be used
+                  as a day mask or sleeping pack mask.
+                  <span class="fw-bold">MRP: 500</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- block 3--------------------------------------------------------- -->
+
+      <div>
+        <div class="heading text-decoration-underline pb-4">
+          <h2>Face Toner</h2>
+        </div>
+        <!-- Parent div with flexbox -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <!-- Card 1 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/toner01.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">AHA/BHA Clarifying Treatment Toner</h5>
+                <p class="card-text">
+                  A Toner that is a multi-use daily mild exfoliating liquid that
+                  contains AHA, BHA, and glycolic acid
+                  <span class="fw-bold">MRP: 500</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/toner7.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ginseng Essence Water</h5>
+                <p class="card-text">
+                  this watery toner is the go-to for revitalized and
+                  youthful-looking skin it is a great for oil control
+                  <span class="fw-bold">MRP: 650</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/toner6.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rose Glass Skin Mist</h5>
+                <p class="card-text">
+                  This clean and natural formula is the key to achieving instant
+                  glass skin and firm looking skin.
+                  <span class="fw-bold">MRP: 520</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/toner04.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Green Tea Toner With Glycolic Acid</h5>
+                <p class="card-text">
+                  Tightens Pores and Fights Pimples and Controls Oil
+                  Alcohol-Free it tones and nourishes the dry skin.
+                  <span class="fw-bold">MRP: 400</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/toner3.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cream Skin Cerapeptide Toner</h5>
+                <p class="card-text">
+                  Formulated with nourishing ceramides and peptides for
+                  hydreates and visibly firm good skin
+                  <span class="fw-bold">MRP: 620</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="box col mb-4">
+            <div class="card">
+              <img
+                src="./imgs/toner05.jpg"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wonder Ceramide Mochi Toner</h5>
+                <p class="card-text">
+                  Wonder Ceramide Mochi Toner, a hydrating, skin-repairing toner
+                  that nourishes weak and dry skin.
+                  <span class="fw-bold">MRP: 590</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  footer -->
+    <div class="footer bg-secondary text-white text-center">
+      <h1 class="p-5">SKIN HEVAN</h1>
+      <p class="mb-5 p-2">
+        Skin Haven is a brand dedicated to providing gentle and effective
+        skincare solutions for all skin types. We focus on creating products
+        with high-quality, natural ingredients that<br />
+        nourish, hydrate, and protect the skin.
+      </p>
+      <div class="p-5 grid gap-3">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="/images/facebook.png" class="img pe-2" alt=""
+        /></a>
+
+        <a href="https://www.google.com/" target="_blank"
+          ><img src="/images/google.png" class="img pe-2" alt=""
+        /></a>
+
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="/images/instagram.png" class="img pe-2" alt=""
+        /></a>
+
+        <a href="https://in.linkedin.com/" target="_blank"
+          ><img src="/images/linkdin.png" class="img pe-2" alt=""
+        /></a>
+
+        <a
+          href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+          target="_blank"
+          ><img src="/images/twitter.png" alt="" class="img pe-2"
+        /></a>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+  </body>
+</html>
